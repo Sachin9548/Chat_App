@@ -1,0 +1,26 @@
+.MessageBox {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.datamsg {
+  display: flex;
+  flex-direction: column;
+}
+.message5{
+  height: fit-content;
+}
+.datamsg img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.msg2 {
+  border-radius: 20px;
+  padding: 5px 15px;
+  max-width: 75%;
+}
+.marginleft {
+  margin-left: 33px;
+}

@@ -1,0 +1,31 @@
+.left{
+  width: 35%;
+  height: 90vh;
+  /* border: 2px solid red; */
+}
+.right{
+  width: 60%;
+  height: 90vh;
+  /* border: 2px solid green; */
+}
+
+
+/* mobile */
+
+@media screen and (max-width:600px){
+  .mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+  }
+  .left{
+    width: 90%;
+    height: 40vh;
+  }
+  .right{
+    /* display: none; */
+    width: 90%;
+    margin-bottom: 5rem;
+  }
+}

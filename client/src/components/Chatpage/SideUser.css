@@ -1,0 +1,55 @@
+.profileImg {
+  height: 50px;
+  width: 50px;
+  margin-right: 12px;
+}
+.list {
+  position: absolute;
+  top: 55px;
+  right: 20px;
+  z-index: 100;
+}
+.list:hover {
+  cursor: pointer;
+}
+.notify {
+  font-size: 2rem;
+  margin-right: 8px;
+}
+
+/* profileModel */
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.userpic {
+  width: 35%;
+  height: 35%;
+}
+
+/* MyChats */
+.MyChats {
+  border-radius: 5px;
+}
+.chats {
+  overflow-y: hidden;
+}
+.chat {
+  overflow-y: scroll;
+}
+
+.Message{
+  background-color: #E8E8E8;
+  border-radius: 5px;
+  height: 92%;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.cp{
+  cursor: pointer;
+}

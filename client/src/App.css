@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family:monospace; */
+  font-family: 'Montserrat', sans-serif;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  /* background-color:rgb(68, 0, 255); */
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* home.jsx */
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  padding: 15px 80px;
+  background: transparent;
+  margin: 30px 0 15px 0;
+  border-radius: 1px;
+  border: 1px solid black;
+  height: fit-content;
+  width: fit-content;
+  box-shadow: 2px 2px 5px;
+}
+.box1 .title {
+  color: white;
+}
+.box2 {
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px;
+  margin-top: 1rem;
+  width: 50%;
+  max-height: 75%;
+  padding: 20px;
+  color: white;
+}
+
+@media screen and (max-width:600px){
+  .box2{
+    width: 90%;
+  }
+}
+
+.lsbtn {
+  color: white;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+/* login */
+.w {
+  color: white;
+  padding: 10px 0;
+}
+.mt {
+  margin-top: 1.2rem;
+  width: 50%;
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.f {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.btnshow {
+  padding: 2px;
+  font-weight: 600;
+}
+.inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* signup */
+
+.section2{
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+.with{
+  width: 500px;
+}
+
+
+/* mychat */
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgba(136, 136, 136, 0.281);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #555;
+}
